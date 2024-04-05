@@ -40,11 +40,10 @@ class MainActivity : AppCompatActivity() {
             selectedOptionText = when (checkedId) {
                 R.id.radioButton -> "Option 1 selected"
                 R.id.radioButton2 -> "Option 2 selected"
+
                 else -> "No option selected"
             }
             binding.myTextView.text = "option selected check with the button "
-
         }
-
     }
 }
